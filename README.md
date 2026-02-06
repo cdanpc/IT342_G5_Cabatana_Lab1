@@ -84,7 +84,7 @@ This project demonstrates a complete full-stack application following best pract
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Java 21+
+- Java 17
 - Node.js 18+
 - MySQL 8.0+
 - Maven 3.9+
