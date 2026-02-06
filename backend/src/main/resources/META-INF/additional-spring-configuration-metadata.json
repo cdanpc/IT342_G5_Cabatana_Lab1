@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {
+      "name": "jwt",
+      "type": "com.project.backend.config.JwtProperties",
+      "description": "Properties for JWT token configuration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "Secret key for JWT token signing (Base64 encoded)",
+      "defaultValue": null
+    },
+    {
+      "name": "jwt.expiration",
+      "type": "java.lang.Long",
+      "description": "JWT token expiration time in milliseconds (default: 24 hours = 86400000)",
+      "defaultValue": 86400000
+    }
+  ]
+}
